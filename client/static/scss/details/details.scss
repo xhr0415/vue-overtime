@@ -1,0 +1,155 @@
+.personDetails{
+        width: 100%;
+        height: pxTorem(130px);
+        background: #0B6242;
+        padding-top: pxTorem(10px);
+        padding-bottom :pxTorem(30px);
+        display: flex;
+
+        .headimg{
+            flex: 2;
+            padding-right: pxTorem(5px);
+            display: flex;
+            justify-content: center;
+
+            span{
+                display: inline-block;
+                width: pxTorem(50px);
+                height: pxTorem(50px);
+                background: gainsboro;
+                border-radius: 50%;
+                overflow: hidden;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .contentbox{
+            flex: 8;
+
+            .content{
+                width: 100%;
+                height: 25%;
+                color: #CFFFF0;
+                display: flex;
+            }
+
+            .left{
+                flex: 3;
+                display: flex;
+                align-items: center;
+            }
+
+            .right{
+                flex: 7;
+                padding-left: pxTorem(20px);
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    .appInfo{
+        width: 90%;
+        height: pxTorem(210px);
+        background: white;
+        margin-left: 5%;
+        margin-top: pxTorem(-20px);
+        border-radius: pxTorem(10px);
+
+        .list{
+            width: 100%;
+            height: 15%;
+            padding-left: pxTorem(20px);
+            padding-right: pxTorem(20px);
+            display: flex;
+
+            >div{
+                display: flex;
+                align-items: center;
+            }
+
+            .left{
+                flex: 1;
+                color: #aaa;
+
+                i{
+                    color: red;
+                    margin-left: pxTorem(5px);
+                    font-size: pxTorem(15px);
+                }
+            }
+
+            .right{
+                flex: 1;
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    .appInfo-head{
+        width: 100%;
+        height: pxTorem(40px);
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        padding-left: pxTorem(20px);
+        font-size: pxTorem(15px);
+    } 
+    
+    .reason{
+        width: 90%;
+        height: pxTorem(140px);
+        background: white;
+        margin-left: 5%;
+        margin-top: pxTorem(15px);  
+        border-radius: pxTorem(10px);
+
+        .reason-content{
+            padding: pxTorem(15px);
+        }
+    }
+
+    .accessory{
+        width: 90%;
+        height: pxTorem(140px);
+        background: white;
+        margin-left: 5%;
+        margin-top: pxTorem(15px);
+        margin-bottom: pxTorem(15px);
+        border-radius: pxTorem(10px);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+
+        .icon-renren1{
+            margin-right: pxTorem(5px);
+            font-size: pxTorem(15px);
+            color: #26B2FD;
+        }
+        
+        >p{
+            flex: 2;
+        }
+
+        .accessory-content{
+            flex: 8;
+            padding: pxTorem(15px);
+            overflow: auto;
+
+            img{
+                width: pxTorem(60px);
+                height: pxTorem(60px);
+                margin-right: pxTorem(5px);
+            }
+        }
+        
+    }
+
+    .header{
+        background: #0B6242;
+        color: white;
+    }
